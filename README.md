@@ -1,9 +1,10 @@
 # Classifying-community-engaged-research-with-transformer-based-models
-![alt text](https://community.vcu.edu/media/community2019/images/hero-images-/homepage-header.jpg)
 
 We propose a novel approach to identifying and categorizing community-engaged studies by applying attention-based deep learning models to human subjects protocols that have been submitted to the university’s Institutional Review Board (IRB).
 
 Attached and shown below is a timeline of this extensive project showing code and our academic accomplishments.
+
+![alt text](https://community.vcu.edu/media/community2019/images/hero-images-/homepage-header.jpg)
 
 https://community.vcu.edu/
 
