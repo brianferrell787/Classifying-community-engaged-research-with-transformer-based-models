@@ -1,27 +1,17 @@
 # Classifying-community-engaged-research-with-transformer-based-models
 
+
+
+
+
 # Timeline of papers
-### 1. Our first methods paper that was published before improvements (ClassificationProj.ipynb)
+### 1. Our first methods paper that was published before improvements (i.e. ClassificationProj.ipynb)
 
 ```latex
 Waiting on acceptance
 ```
 
-### 2. Our first evaluation paper that was published after improvements  (fine-tuning strategies)
-
-```latex
-@article{zimmerman2022developing,
-  title={Developing a classification system and algorithm to track community-engaged research using IRB protocols at a large research university},
-  author={Zimmerman, Emily B and Raskin, Sarah E and Ferrell, Brian and Krist, Alex H},
-  journal={Journal of Clinical and Translational Science},
-  volume={6},
-  number={1},
-  year={2022},
-  publisher={Cambridge University Press}
-}
-```
-
-### 3. Our second methods paper that was published (fine-tuning strategies)
+### 2. Our second methods paper that was published after initial improvements (fine-tuning strategies)
 
 ```latex
 Waiting on acceptance
@@ -137,6 +127,20 @@ transformers_logger.setLevel(logging.WARNING)
 
 # Train model
 model.train_model(training,eval_df=test)
+```
+
+### 3. Our first evaluation paper that was published after initial improvements (fine-tuning strategies)
+
+```latex
+@article{zimmerman2022developing,
+  title={Developing a classification system and algorithm to track community-engaged research using IRB protocols at a large research university},
+  author={Zimmerman, Emily B and Raskin, Sarah E and Ferrell, Brian and Krist, Alex H},
+  journal={Journal of Clinical and Translational Science},
+  volume={6},
+  number={1},
+  year={2022},
+  publisher={Cambridge University Press}
+}
 ```
 
 ### 4. Our second evaluation paper that was published after additional improvements (new data, calibrated confidence scores)
