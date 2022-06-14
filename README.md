@@ -26,9 +26,10 @@ Waiting on acceptance
 ```latex
 Waiting on acceptance
 ```
-```
+
 Layer freezing was added, see example code below:
-``` python
+
+```python
 import logging
 from statistics import mean
 
@@ -136,11 +137,7 @@ transformers_logger.setLevel(logging.WARNING)
 
 # Train model
 model.train_model(training,eval_df=test)
-```
-# **Install**:
-``` python
-!pip install talos
-```
+
 
 ### 4. Our second evaluation paper that was published after additional improvements (new data, calibrated confidence scores)
 
