@@ -1,8 +1,12 @@
 # Classifying-community-engaged-research-with-transformer-based-models
 
+### 1. Our first methods paper that was published before improvements made (ClassificationProj.ipynb)
 
+```latex
+Waiting on acceptance
+```
 
-### 1. Paper that was published after improvements made (fine-tuning strategies)
+### 2. Our first evaluation paper that was published after improvements made (fine-tuning strategies)
 
 ```latex
 @article{zimmerman2022developing,
