@@ -135,6 +135,7 @@ model.train_model(training,eval_df=test)
 ```
 ## Evaluation papers
 ### 1. Published after initial improvements (fine-tuning strategies)
+https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/developing-a-classification-system-and-algorithm-to-track-communityengaged-research-using-irb-protocols-at-a-large-research-university/7FCA3A9D8B6ACDAB664A4C45800100D2
 
 ```latex
 @article{zimmerman2022developing,
