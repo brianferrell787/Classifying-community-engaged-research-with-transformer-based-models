@@ -137,6 +137,10 @@ transformers_logger.setLevel(logging.WARNING)
 # Train model
 model.train_model(training,eval_df=test)
 ```
+# **Install**:
+``` python
+!pip install talos
+```
 
 ### 4. Our second evaluation paper that was published after additional improvements (new data, calibrated confidence scores)
 
