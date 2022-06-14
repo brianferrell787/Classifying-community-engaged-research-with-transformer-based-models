@@ -5,13 +5,14 @@
 
 
 # Timeline of papers
-### 1. Our first methods paper that was published before improvements (i.e. ClassificationProj.ipynb)
+## Methods papers
+### 1. Published before improvements (i.e. ClassificationProj.ipynb)
 
 ```latex
 Waiting on acceptance
 ```
 
-### 2. Our second methods paper that was published after initial improvements (fine-tuning strategies)
+### 2. Published after initial improvements (fine-tuning strategies)
 
 ```latex
 Waiting on acceptance
@@ -128,8 +129,8 @@ transformers_logger.setLevel(logging.WARNING)
 # Train model
 model.train_model(training,eval_df=test)
 ```
-
-### 3. Our first evaluation paper that was published after initial improvements (fine-tuning strategies)
+## Evaluation papers
+### 1. Published after initial improvements (fine-tuning strategies)
 
 ```latex
 @article{zimmerman2022developing,
@@ -143,7 +144,7 @@ model.train_model(training,eval_df=test)
 }
 ```
 
-### 4. Our second evaluation paper that was published after additional improvements (new data, calibrated confidence scores)
+### 4. Published after additional improvements (new data, calibrated confidence scores)
 
 ```latex
 Waiting on acceptance
