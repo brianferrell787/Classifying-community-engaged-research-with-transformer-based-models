@@ -13,7 +13,14 @@ https://community.vcu.edu/
 ### 1. Published before improvements (i.e. ClassificationProj.ipynb)
 
 ```latex
-Waiting on acceptance
+Please cite as:
+Ferrell BJ, Raskin SE, Zimmerman EB, Timberline DH, McInnes BT, Krist AH
+Attention-Based Models for Classifying Small Data Sets Using Community-Engaged Research Protocols: Classification System
+Development and Validation Pilot Study
+JMIR Form Res 2022;6(8):e32460
+URL: https://formative.jmir.org/2004/8/e32460/
+doi: 10.2196/32460
+PMID:
 ```
 
 ### 2. Published after initial improvements (fine-tuning strategies)
