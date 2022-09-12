@@ -14,13 +14,16 @@ https://community.vcu.edu/
 https://formative.jmir.org/2022/9/e32460
 
 ```latex
-Please cite as:
-Ferrell BJ, Raskin SE, Zimmerman EB, Timberline DH, McInnes BT, Krist AH
-Attention-Based Models for Classifying Small Data Sets Using Community-Engaged Research Protocols: Classification System
-Development and Validation Pilot Study
-JMIR Form Res 2022;6(9):e32460
-URL: https://formative.jmir.org/2022/9/e32460
-doi: 10.2196/32460
+@article{ferrell2022attention,
+  title={Attention-Based Models for Classifying Small Data Sets Using Community-Engaged Research Protocols: Classification System Development and Validation Pilot Study},
+  author={Ferrell, Brian J and Raskin, Sarah E and Zimmerman, Emily B and Timberline, David H and McInnes, Bridget T and Krist, Alex H},
+  journal={JMIR Formative Research},
+  volume={6},
+  number={9},
+  pages={e32460},
+  year={2022},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
 ```
 
 ### 2. Published after initial improvements (fine-tuning strategies)
