@@ -235,6 +235,6 @@ ground_truth = [2,2,2,2,0,0,1,2,2,0,1,1,1,1,1,2,2,2,2,1,2,2,2,2,2,2,2,1,1,0,0,0,
 ground_truth = np.array(ground_truth)
 
 model = Calibration()
-model.fit(probs,ground_truth)
+model.fit(probs,ground_truth) # probs are just the softmax outputs from the model predictions
 model.calibrate(bins=3)
 ```
