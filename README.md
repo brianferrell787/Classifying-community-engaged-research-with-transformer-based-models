@@ -227,3 +227,14 @@ class Calibration():
             print(f"{type(i)}: \n \n {j} \n {diagram.plot(j, ground_truth)}")
            
 ```
+
+Example usage:
+
+``` python
+ground_truth = [2,2,2,2,0,0,1,2,2,0,1,1,1,1,1,2,2,2,2,1,2,2,2,2,2,2,2,1,1,0,0,0,0,2,0,0,0,0,0,1,1,1,1,0,2] #class predictions
+ground_truth = np.array(ground_truth)
+
+model = Calibration()
+model.fit(probs,ground_truth)
+model.calibrate(bins=3)
+```
