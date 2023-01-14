@@ -164,4 +164,63 @@ https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-sc
 ```latex
 Waiting on acceptance
 ```
+``` python
+from netcal.metrics import ACE
+import numpy as np
+from netcal.binning import IsotonicRegression, BBQ, HistogramBinning, ENIR
+from netcal.scaling import LogisticCalibration, TemperatureScaling, BetaCalibration
+from netcal.presentation import ReliabilityDiagram
 
+class Calibration():
+    '''Set the initial binning and scaling methods'''
+    def __init__(self):
+        self.method1 = IsotonicRegression()
+        self.method2 = BBQ()
+        self.method3 = ENIR()
+        self.method4 = HistogramBinning()
+        self.method5 = LogisticCalibration()
+        self.method6 = TemperatureScaling()
+        self.method7 = BetaCalibration()
+        
+        
+    def fit(self,probs, ground_truth):
+        '''Set methods to global so it can be used in other functions for pritning and the fit the models'''
+        global methods
+        methods = [self.method1,self.method2,self.method3,self.method4,self.method5,self.method6,self.method7]
+        for i in methods:
+            i.fit(probs, ground_truth)
+    
+    def calibrate(self,bins=5):
+        global calibrations
+        '''Setting the bins to a random number, getting the ACE metric, uncalibrated score, and then calibrate the models'''
+        self.bins = bins
+        self.ace = ACE(self.bins)
+        uncalibrated_score = self.ace.measure(probs,ground_truth)
+        
+        calibrated1 =  self.method1.transform(probs)
+        calibrated2 =  self.method2.transform(probs)
+        calibrated3 =  self.method3.transform(probs)
+        calibrated4 =  self.method4.transform(probs)
+        calibrated5 =  self.method5.transform(probs)
+        calibrated6 =  self.method6.transform(probs)
+        calibrated7 =  self.method7.transform(probs)
+        
+        calibrations = [calibrated1,calibrated2,calibrated3,calibrated4,calibrated5,calibrated6,calibrated7]
+        
+        #setting calscores brackets and calculating the ACE metric for models and print the scores plus the minimum score
+        calscores = []
+        for i in calibrations:
+            calscores.append(self.ace.measure(i,ground_truth))
+        for i,j in zip(methods,calscores):
+            print(f"{type(i)}: {round(j,4)}\n") 
+            
+        print(f"Minimum ACE Metric: {round(np.min(calscores),4)}")
+            
+        print(f"Uncalibrated Score: {uncalibrated_score:.4f} \n")
+        
+        #this output is the type of model and the new probability values
+        diagram = ReliabilityDiagram(self.bins,metric='ACE')
+        for i,j in zip(methods,calibrations):
+            print(f"{type(i)}: \n \n {j} \n {diagram.plot(j, ground_truth)}")
+           
+```
