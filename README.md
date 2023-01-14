@@ -164,6 +164,9 @@ https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-sc
 ```latex
 Waiting on acceptance
 ```
+
+Calibrated confidence scores were added, see example code below:
+
 ``` python
 from netcal.metrics import ACE
 import numpy as np
