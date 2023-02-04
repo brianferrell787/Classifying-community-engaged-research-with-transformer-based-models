@@ -32,7 +32,7 @@ https://formative.jmir.org/2022/9/e32460
 Waiting on acceptance
 ```
 
-[Fine Tuning Strategies for Transformer-Based Models YouTube](https://www.youtube.com/watch?v=UcybL7v0OT8&t=356s)
+[YouTube Video of Research](https://www.youtube.com/watch?v=UcybL7v0OT8&t=356s)
 
 Layer freezing was added, see example code below:
 
