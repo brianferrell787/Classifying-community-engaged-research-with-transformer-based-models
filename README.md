@@ -29,7 +29,15 @@ https://formative.jmir.org/2022/9/e32460
 ### 2. Published after initial improvements (fine-tuning strategies)
 
 ```latex
-Waiting on acceptance
+@article{ferrell2023fine,
+  title={Fine-tuning Strategies for Classifying Community-Engaged Research Studies Using Transformer-Based Models: Algorithm Development and Improvement Study},
+  author={Ferrell, Brian J},
+  journal={JMIR Formative Research},
+  volume={7},
+  pages={e41137},
+  year={2023},
+  publisher={JMIR Publications Toronto, Canada}
+}
 ```
 
 [YouTube Video of Research](https://www.youtube.com/watch?v=UcybL7v0OT8&t=356s)
