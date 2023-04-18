@@ -172,7 +172,16 @@ https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-sc
 ### 4. Published after additional improvements (new data, calibrated confidence scores)
 
 ```latex
-Waiting on acceptance
+@article{ferrell2023calibrating,
+  title={Calibrating a Transformer-Based Model’s Confidence on Community-Engaged Research Studies: Decision Support Evaluation Study},
+  author={Ferrell, Brian and Raskin, Sarah E and Zimmerman, Emily B and others},
+  journal={JMIR Formative Research},
+  volume={7},
+  number={1},
+  pages={e41516},
+  year={2023},
+  publisher={JMIR Publications Inc., Toronto, Canada}
+}
 ```
 
 Calibrated confidence scores were added, see example code below:
