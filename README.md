@@ -171,6 +171,8 @@ https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-sc
 
 ### 4. Published after additional improvements (new data, calibrated confidence scores)
 
+https://formative.jmir.org/2023/1/e41516/
+
 ```latex
 @article{ferrell2023calibrating,
   title={Calibrating a Transformer-Based Model’s Confidence on Community-Engaged Research Studies: Decision Support Evaluation Study},
